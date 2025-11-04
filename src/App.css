@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.whole-page {
+  padding: 50px;
+  text-align: center;
+  background: black;
+  color: white;
+  margin-left: 25%;
+}
+
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+  padding: 0;
+}
+
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* SideNav Styling */
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #232323;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav h2 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.sidenav h3 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.side-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.news-article {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  font-size: 14px;
+  text-align: left;
+}
+
+.news-article a {
+  color: #4da6ff;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.news-article a:hover {
+  color: #80bdff;
+  text-decoration: underline;
+}
